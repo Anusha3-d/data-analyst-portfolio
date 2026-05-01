@@ -55,5 +55,5 @@ West region leads all regions in profitability.
 4. Copy any query from superstore_analysis.sql and run it
 
 ## Connect
-- LinkedIn: linkedin.com/in/anushachowdaryd
-- GitHub: github.com/anushachowdary
+- LinkedIn:linkedin.com/in/anusha-chowdary-d-843192295
+- GitHub: github.com/Anusha3-d
