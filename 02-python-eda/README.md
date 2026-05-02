@@ -1,59 +1,69 @@
-# Project 1: Superstore Sales Analysis
+# Project 2: HR Analytics — Exploratory Data Analysis
 
 ## Overview
-Analyzed 9,994 real sales orders from the Superstore dataset using SQL.
-Uncovered key business insights around profitability, discounting strategy,
-regional performance and customer behaviour.
+Analyzed IBM HR Analytics dataset with 1,470 employee 
+records using Python (Pandas, Matplotlib, Seaborn).
+Uncovered key insights about attrition, salary gaps 
+and departmental performance.
 
 ## Tools Used
-- SQL (SQLite)
-- DB Browser for SQLite
-- Dataset: Superstore Sales (Kaggle)
+- Python 3.13
+- Pandas — data cleaning & feature engineering
+- Matplotlib — data visualization
+- Seaborn — statistical charts
+- Jupyter Notebook
+- Dataset: Kaggle IBM HR Analytics
 
 ## Business Questions Answered
-1. What is the overall sales and profit performance?
-2. Which region generates the most profit?
-3. Which product categories and sub-categories are losing money?
-4. Who are the top 10 most valuable customers?
-5. Which states are underperforming?
-6. How do discounts impact profit?
-7. What is the average order value?
-8. Which shipping mode is most popular and profitable?
+1. Which department has the highest attrition?
+2. What is the age distribution of employees?
+3. Which job roles earn the most and least?
+4. What is the overall attrition rate?
+5. How big is the salary gap across roles?
 
-## Key Insights Found
+## Key Insights
 
-### Insight 1 — The Discount Danger Line
-Discounts above 20% consistently generate negative profit.
-Recommendation: Cap all discounts at 20% maximum.
+### Insight 1 — R&D Attrition Crisis
+R&D department has the highest number of employees 
+leaving. These are the most skilled and hardest to 
+replace employees in the company.
+Recommendation: Invest in R&D retention programs.
 
-### Insight 2 — The Furniture Trap
-Furniture is the highest selling category but Tables and Bookcases
-have negative profit. High sales volume is masking serious losses.
-Recommendation: Review pricing strategy for Tables and Bookcases.
+### Insight 2 — Experienced Workforce Leaving
+Average employee age is 37 years — experienced 
+professionals in their prime. Yet 16.12% leave 
+every year — above the 15% industry average.
+Recommendation: Focus retention on 30-40 age group.
 
-### Insight 3 — The Texas Problem
-Texas generates significant sales but is the worst performing state
-for profit — likely due to excessive discounting.
-Recommendation: Reduce discount approvals in Texas region.
+### Insight 3 — Salary Gap
+Managers earn the most. Sales Representatives earn 
+the least. 20x gap between minimum ($1,009) and 
+maximum ($19,999) monthly salary.
+Recommendation: Conduct urgent pay equity audit.
 
-### Insight 4 — Top Customer
-Sean Miller is the #1 customer by sales volume.
-Average order value across all customers: $229.86
+## Data Cleaning Steps
+- Removed 4 useless columns (EmployeeCount, Over18,
+  StandardHours, EmployeeNumber)
+- Fixed 10 columns wrongly stored as numbers 
+  (converted to category type)
+- Created 3 new columns:
+  * SalaryCategory (Low/Medium/High/Very High)
+  * ExperienceCategory (Fresher/Junior/Mid/Senior)
+  * AgeGroup (18-25/26-35/36-45/46-60)
 
-### Insight 5 — Consistent Growth
-Business grew consistently year on year from 2014 to 2017.
-West region leads all regions in profitability.
+## Charts Created
+1. Attrition by Department — Bar chart
+2. Age Distribution — Histogram with KDE curve
+3. Monthly Income by Job Role — Horizontal bar chart
 
 ## Files
-- superstore_analysis.sql — All 13 SQL queries
-- superstore_sales.csv — Raw dataset (source: Kaggle)
-
-## How to Run
-1. Download DB Browser for SQLite (free): https://sqlitebrowser.org
-2. Open superstore.db in DB Browser
-3. Go to Execute SQL tab
-4. Copy any query from superstore_analysis.sql and run it
+- hr_analytics_eda.ipynb — Full analysis notebook
+- hr_analytics.csv — Original dataset
+- hr_analytics_cleaned.csv — Cleaned dataset
+- chart1_attrition_by_department.png
+- chart2_age_distribution.png
+- chart3_salary_by_jobrole.png
 
 ## Connect
-- LinkedIn: linkedin.com/in/anushachowdaryd
-- GitHub: github.com/anushachowdary
+- LinkedIn: linkedin.com/in/anusha-chowdary-d-843192295
+- GitHub: github.com/Anusha3-d
