@@ -19,7 +19,7 @@ turning raw data into clear, actionable insights.
 | 4 | End-to-End Pipeline | SQL + Python + Power BI | ⏳ Upcoming |
 
 ## Connect with me
-- LinkedIn: linkedin.com/in/anushachowdaryd
+- LinkedIn: https://www.linkedin.com/in/anusha-chowdary-d-843192295
 
 
 ⭐ Star this repo if you find it helpful!
