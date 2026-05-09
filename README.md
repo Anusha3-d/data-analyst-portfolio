@@ -6,7 +6,7 @@ turning raw data into clear, actionable business insights.
 ## 🛠️ Tools & Skills
 - **SQL** — data extraction, joins, aggregations, subqueries, CASE WHEN
 - **Python** (Pandas, Matplotlib, Seaborn) — EDA, data cleaning, visualization
-- **Power BI / Tableau** — dashboards & data storytelling (in progress)
+- **Power BI / Tableau** — dashboards & data storytelling.
 - **Excel** — pivot tables, charts, VLOOKUP, analysis
 
 ## 📁 Projects
@@ -15,7 +15,7 @@ turning raw data into clear, actionable business insights.
 
 | 1 | [Superstore Sales Analysis](./01-sql-sales-analysis) | SQL, SQLite | ✅ Complete | Discounts above 20% = negative profit |
 | 2 | [HR Analytics EDA](./02-python-eda) | Python, Pandas, Matplotlib, Seaborn | ✅ Complete | 16.12% attrition — above industry average |
-| 3 | Sales Dashboard | Power BI | 🔄 In Progress | Coming soon |
+| 3 | Sales Dashboard | Power BI |  ✅ Complete
 | 4 | End-to-End Pipeline | SQL + Python + Power BI | ⏳ Upcoming | Coming soon |
 
 ## 📊 Project 1 — Superstore Sales Analysis (SQL)
@@ -83,7 +83,7 @@ matplotlib, seaborn, savefig()
 | Day 6-7 | LinkedIn posts + networking |
 | Day 8-11 | Project 2 — Python HR EDA complete |
 | Day 12-14 | LinkedIn posts + profile updates |
-| Day 15-18 | Project 3 — Power BI Dashboard (in progress) |
+| Day 15-18 | Project 3 — Power BI Dashboard Complete |
 | Day 22-26 | Project 4 — End-to-End Pipeline (upcoming) |
 | Day 27-30 | Final posts + job applications |
 
